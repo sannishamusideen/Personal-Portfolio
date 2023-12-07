@@ -42,6 +42,10 @@ export default Portfolionavbar;
 
 let Navbar = styled.div`
   box-shadow: 0px 5.333px 80px 0px rgba(0, 0, 0, 0.1);
+  background-color: hsl(0, 0%, 98%);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 
   nav {
     display: flex;
