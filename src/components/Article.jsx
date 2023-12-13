@@ -6,9 +6,11 @@ const ArticleSkills = () => {
   return (
     <Article>
       <section className="container">
-        <small>My Skills</small>
-        <h1>My Expertise</h1>
-        <Myskill />
+        <section className="section">
+          <small>My Skills</small>
+          <h1>My Expertise</h1>
+          <Myskill />
+        </section>
       </section>
     </Article>
   );

@@ -9,9 +9,9 @@ const Portfolioheader = () => {
         <section className="section">
           <div className="head">
             <strong>Hey, I am Shamusideen</strong>
-            <h2>
+            <h1>
               I create <strong>product design</strong> and brand experience
-            </h2>
+            </h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
               saepe hic natus molestias, nesciunt quam non veritatis consequatur
@@ -42,9 +42,11 @@ let Header = styled.div`
 
   .head {
     text-align: center;
+    padding-top: 30px;
   }
-  h2 {
+  h1 {
     margin-top: 15px;
+    font-size: 40px;
 
     strong {
       color: #5e3bee;
@@ -76,6 +78,13 @@ let Header = styled.div`
 
     .head {
       text-align: left;
+    }
+
+    .img-picture {
+      width: 45%;
+    }
+    .head {
+      width: 45%;
     }
   }
 `;
