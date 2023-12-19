@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Article from "../components/Article";
 import About from "../components/About";
-import Testimonial from "../components/Testimonial";
+import AllTestimonial from "../components/AllTestimonial";
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
       <Header />
       <Article />
       <About />
-      <Testimonial />
+      <AllTestimonial />
       <Footer />
     </div>
   );

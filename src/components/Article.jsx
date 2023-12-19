@@ -26,6 +26,7 @@ let Article = styled.div`
   }
   h1 {
     margin: 20px 0;
+    font-size: 24px;
   }
   img {
     width: 45px;
