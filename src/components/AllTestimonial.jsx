@@ -11,7 +11,7 @@ export const TestimonialPage = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     autoplay: true,
     slidesToScroll: 1,
     responsive: [
@@ -23,7 +23,7 @@ export const TestimonialPage = () => {
         },
       },
       {
-        breakpoint: 500,
+        breakpoint: 900,
         settings: {
           slidesToScroll: 1,
           slidesToShow: 1,

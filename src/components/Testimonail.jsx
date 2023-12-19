@@ -42,6 +42,7 @@ let EachTestimonail = styled.div`
   border: 1px solid #006b6a;
   border-radius: 5px;
   padding: 20px;
+  margin-right: 10px;
   span img {
     width: 20px;
     height: 20px;
