@@ -63,11 +63,11 @@ let EachTestimonail = styled.div`
     border-radius: 50%;
     margin-right: 20px;
   }
-  .star{
+  .star {
     display: flex;
   }
 
-  h5{
+  h5 {
     margin-bottom: 5px;
   }
 `;
