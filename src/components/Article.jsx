@@ -7,7 +7,7 @@ const ArticleSkills = () => {
     <Article>
       <section className="container">
         <section className="section">
-          <small>My Skills</small>
+          <strong>My Skills</strong>
           <h1>My Expertise</h1>
           <Myskill />
         </section>
@@ -21,12 +21,12 @@ export default ArticleSkills;
 let Article = styled.div`
   margin: 80px 0;
 
-  small {
-    font-weight: 500;
-  }
+  // small {
+  //   font-weight: 500;
+  // }
   h1 {
     margin: 20px 0;
-    font-size: 24px;
+    font-size: 40px;
   }
   img {
     width: 45px;

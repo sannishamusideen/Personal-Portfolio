@@ -46,7 +46,7 @@ let About = styled.div`
   }
 
   h1 {
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 40px;
   }
   p {

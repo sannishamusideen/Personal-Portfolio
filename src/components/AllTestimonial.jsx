@@ -37,7 +37,7 @@ export const TestimonialPage = () => {
       <section className="container">
         <section>
           <section>
-            <small>Clients Feedback</small>
+            <strong>Clients Feedback</strong>
             <h1>Customers Testimonials</h1>
           </section>
 
@@ -65,7 +65,7 @@ let AllTestimonial = styled.div`
   background-color: #f5fcff;
 
   h1 {
-    font-size: 24px;
+    font-size: 40px;
     margin: 20px 0;
   }
 
