@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Profile from "./Profile";
+import Profilelist from "../assets/json/dummyProfile";
 import SocialIcon from "../assets/image/Social icon.svg";
 
 const ProfilePage = () => {
@@ -17,6 +18,18 @@ const ProfilePage = () => {
             Visit My Dribble
           </button>
         </section>
+
+        <section className="flex">
+          <div className="each-port">
+            {Profilelist.map((profily) => (
+              <Profile
+                img={profily.img}
+                project={profily.project}
+                word={profily.word}
+              />
+            ))}
+          </div>
+        </section>
       </section>
     </Allprofile>
   );
@@ -25,11 +38,11 @@ const ProfilePage = () => {
 export default ProfilePage;
 
 let Allprofile = styled.div`
-    .flex-top {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+  .flex-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   h1 {
     font-size: 40px;
     margin: 20px 0;
@@ -49,4 +62,6 @@ let Allprofile = styled.div`
       padding-right: 10px;
     }
   }
+
+  
 `;
