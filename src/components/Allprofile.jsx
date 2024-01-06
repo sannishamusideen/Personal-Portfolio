@@ -63,5 +63,14 @@ let Allprofile = styled.div`
     }
   }
 
-  
+  @media (min-width: 700px) {
+    .each-port {
+      display: flex;
+      justify-content: space-between;
+      // flex-wrap: wrap;
+    }
+    .each-profile {
+      width: 90%;
+    }
+  }
 `;
