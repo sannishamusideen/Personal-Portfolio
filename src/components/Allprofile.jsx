@@ -30,6 +30,9 @@ const ProfilePage = () => {
             ))}
           </div>
         </section>
+        <div className="btn">
+          <button className="bttn">View More Project</button>
+        </div>
       </section>
     </Allprofile>
   );
@@ -62,15 +65,20 @@ let Allprofile = styled.div`
       padding-right: 10px;
     }
   }
+  .btn {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 30px;
+  }
+  .bttn {
+    height: 35px;
+  }
 
   @media (min-width: 700px) {
     .each-port {
       display: flex;
       justify-content: space-between;
       // flex-wrap: wrap;
-    }
-    .each-profile {
-      width: 90%;
     }
   }
 `;
