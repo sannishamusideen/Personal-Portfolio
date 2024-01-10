@@ -4,8 +4,8 @@ import vector from "../assets/image/Vector (2).svg";
 
 const Profile = (props) => {
   return (
-    <EachProfile>
-      <section className="each-profile">
+    <EachProfile className="each-profile">
+      <section>
         <img src={props.img} alt="" />
         <div className="section">
           <h3>{props.project}</h3>

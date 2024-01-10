@@ -80,5 +80,9 @@ let Allprofile = styled.div`
       justify-content: space-between;
       // flex-wrap: wrap;
     }
+
+    .each-profile {
+      width: 30%;
+    }
   }
 `;

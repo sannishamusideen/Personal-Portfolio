@@ -14,6 +14,7 @@ export const TestimonialPage = () => {
     slidesToShow: 3,
     autoplay: true,
     slidesToScroll: 1,
+    margin: 10,
     responsive: [
       {
         breakpoint: 1024,
@@ -36,7 +37,7 @@ export const TestimonialPage = () => {
     <AllTestimonial>
       <section className="container">
         <section>
-          <section>
+          <section className="section">
             <strong>Clients Feedback</strong>
             <h1>Customers Testimonials</h1>
           </section>
@@ -69,7 +70,7 @@ let AllTestimonial = styled.div`
     margin: 20px 0;
   }
 
-  section {
+  .section {
     padding: 40px 0;
   }
 `;
