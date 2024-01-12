@@ -10,7 +10,8 @@ const Portfolioheader = () => {
           <div className="head">
             <strong>Hey, I am Shamusideen</strong>
             <h1>
-              I create <strong>product design</strong> and brand experience
+              I'm a <strong>Front End Developer</strong> and{" "}
+              <strong>WordPress Expert</strong>
             </h1>
             <p>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia

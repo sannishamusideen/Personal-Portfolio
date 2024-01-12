@@ -69,7 +69,6 @@ let AllTestimonial = styled.div`
     font-size: 40px;
     margin: 20px 0;
   }
-
   .section {
     padding: 40px 0;
   }

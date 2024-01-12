@@ -39,7 +39,7 @@ const Portfoliofooter = () => {
         </div>
 
         <div className="footer-down">
-          <p>Made with 💖 by Airdokan</p>
+          <p>Made with 💖 by Engr.Loverboy</p>
 
           <ul>
             <li>Privacy Policy</li>

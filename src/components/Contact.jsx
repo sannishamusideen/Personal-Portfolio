@@ -6,14 +6,14 @@ const ContactPage = () => {
     <Contact>
       <section className="container">
         <section className="max">
-          <small>Get In Touch</small>
-          <h1>Contact me</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In sit
-            suscipit molestiae accusantium. Magni perferendis cum ullam
-            laudantium corrupti, commodi in culpa debitis quo nulla architecto
-            saepe voluptatum. Autem, odio.
-          </p>
+          <div className="cen">
+            <strong>Get In Touch</strong>
+            <h1>Contact me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In sit
+              suscipit molestiae accusantium.
+            </p>
+          </div>
 
           <form action="">
             <div className="contact">
@@ -69,6 +69,16 @@ const ContactPage = () => {
 export default ContactPage;
 
 let Contact = styled.div`
+  .cen {
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+    padding: 20px 0;
+  }
+  p {
+    padding-bottom: 40px;
+  }
   input,
   select {
     width: 95%;
@@ -78,9 +88,7 @@ let Contact = styled.div`
     border: 1px solid #5e3bee;
     margin-top: 15px;
   }
-  // input:focus {
-  //   color: blue;
-  // }
+
   label {
     display: block;
   }
@@ -88,10 +96,10 @@ let Contact = styled.div`
     display: block;
   }
   select {
-    width: 100%;
+    width: 101%;
   }
   textarea {
-    width: 100%;
+    width: 95%;
     padding: 15px;
     margin-top: 15px;
   }
@@ -101,6 +109,7 @@ let Contact = styled.div`
   }
   .checkbox {
     display: inline-block;
+    margin-left: -10px;
   }
   .checkbox label {
     display: inline-block;
@@ -118,11 +127,12 @@ let Contact = styled.div`
     color: white;
     border: 1px solid;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 30px auto;
   }
   .max {
     max-width: 900px;
     margin: 0 auto;
+    padding: 80px 0;
   }
 
   @media (min-width: 700px) {
@@ -132,6 +142,12 @@ let Contact = styled.div`
     }
     .name {
       width: 48%;
+    }
+
+    textarea {
+      width: 98%;
+      padding: 15px;
+      margin-top: 15px;
     }
   }
 `;
