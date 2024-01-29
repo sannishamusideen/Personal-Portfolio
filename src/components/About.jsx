@@ -15,20 +15,18 @@ const AboutMe = () => {
             <strong>About</strong>
             <h1>About Me</h1>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam
-              nihil ea quia modi. Optio, totam. Autem voluptas, est similique
-              sequi porro quos corrupti eius magni reprehenderit, qui doloribus,
-              tenetur aliquam! Quae debitis, repellendus blanditiis commodi
-              minus ipsa, deserunt ipsam fuga nisi perspiciatis reprehenderit
-              non iste ipsum porro, minima eius rem autem? Sit expedita enim
-              doloribus dolorum, quibusdam alias exercitationem eaque.
+              I'm a front end developer with five years of experience in web
+              development. I've worked on a variety of projects for clients in
+              the retail, travel, and healthcare industries. I'm passionate
+              about creating great user experiences and have a strong
+              understanding of usability and accessibility standards.
             </p>
 
             <p>
-              Ducimus, at alias quia nam magnam dolor tempora officiis ex
-              accusamus architecto est molestias fugiat consequuntur. Modi odio
-              possimus architecto laudantium rerum nam perspiciatis, vel dolor
-              dolorem molestiae officia perferendis!
+              I am a hard working, honest individual. I am a good timekeeper,
+              always willing to learn new skills. I am friendly, helpful and
+              polite, have a good sense of humour. I am able to work
+              independently in busy environments and also within a team setting.
             </p>
           </div>
         </section>

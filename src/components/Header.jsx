@@ -14,10 +14,9 @@ const Portfolioheader = () => {
               <strong>WordPress Expert</strong>
             </h1>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
-              saepe hic natus molestias, nesciunt quam non veritatis consequatur
-              temporibus, animi doloribus quod cumque necessitatibus earum
-              voluptatem nostrum aspernatur nam ullam?
+              I specialize in HTML, CCS and Javascript programming languages
+              and have extensive experience in developing software for
+              large-scale applications and also a WordPress Expert.
             </p>
             <button>Get In Touch</button>
           </div>
