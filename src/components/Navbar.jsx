@@ -16,7 +16,6 @@ const Portfolionavbar = () => {
         <div className="overflow">
           <nav className="container">
             <img src={logo} alt="" />
-
             <div className={`flex-nav-bttn  ${menuOpen ? "active" : ""}`}>
               <ul className="nav-links">
                 <li>Home</li>
@@ -26,14 +25,23 @@ const Portfolionavbar = () => {
               </ul>
 
               <div className="nav-div-bttn">
-                <button className="nav-bttn">Contant Me</button>
+                {/* <button className="nav-bttn">Contant Me</button> */}
+
+                <a
+                  href="https://wa.me/2348100959239"
+                  className="nav-bttn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Contact Me
+                </a>
               </div>
             </div>
+
             {/* 
           <div className="hamburger" onClick={toggleMenu}>
             <img src={hamburger} alt="" />
           </div> */}
-
             <div className="hamburger1" onClick={toggleMenu}>
               <div></div>
               <div></div>
@@ -54,6 +62,10 @@ let Navbar = styled.div`
   position: fixed;
   z-index: 1;
   width: 100%;
+
+  a {
+    text-decoration: none;
+  }
 
   nav {
     display: flex;
