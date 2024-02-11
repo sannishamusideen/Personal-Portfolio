@@ -22,6 +22,14 @@ const Testimoniallist = [
     title: "McDonald's",
     word: "In many ways, he understood our client's website needs better than we did and he complimented our vision perfectly. He's reliable, professional and easy to work with. I can’t recommend him highly enough and we look forward to continuing our working relationship together.",
   },
+
+  {
+    id: 4,
+    img: "https://images.unsplash.com/photo-1605664041954-fc778c387c02?q=80&w=3551&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    name: "Sodiq Makinde",
+    title: "Chicken Republic",
+    word: "Awesome, Awesome !!! He has been helping us for years. He created our website and have continually updated it and adjusted to our growing and changing company. You can rest comfortably when he is looking after you. Thanks for everything you do for us.",
+  },
 ];
 
 export default Testimoniallist;

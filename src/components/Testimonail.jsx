@@ -3,6 +3,15 @@ import styled from "styled-components";
 import star from "../assets/image/Vector.svg";
 
 const Testimonail = (props) => {
+  // Function to truncate words to a specific length
+  function truncate(text, limit) {
+    const word = text.split(" ");
+    if (word.length > limit) {
+      return word.slice(0, limit).join(" ") + "...";
+    }
+    return text;
+  }
+
   return (
     <EachTestimonail>
       <div className="star">
@@ -23,7 +32,7 @@ const Testimonail = (props) => {
         </span>
       </div>
 
-      <p className="word">{props.word}</p>
+      <p className="word">{truncate(props.word, 30)}</p>
 
       <div className="profile">
         <img src={props.img} alt="" />
