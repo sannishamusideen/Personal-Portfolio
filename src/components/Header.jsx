@@ -14,11 +14,17 @@ const Portfolioheader = () => {
               <strong>WordPress Expert</strong>
             </h1>
             <p>
-              I specialize in HTML, CCS and Javascript programming languages
-              and have extensive experience in developing software for
-              large-scale applications and also a WordPress Expert.
+              I specialize in HTML, CCS and Javascript programming languages and
+              have extensive experience in developing software for large-scale
+              applications and also a WordPress Expert.
             </p>
-            <button>Get In Touch</button>
+            {/* <button>Get In Touch</button> */}
+
+            <button
+              onClick={() => (window.location = "mailto:samsonanu@yahoo.com")}
+            >
+              Get In Touch
+            </button>
           </div>
 
           <div className="img-picture">
