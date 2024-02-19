@@ -51,7 +51,7 @@ const Myskill = () => {
 export default Myskill;
 
 let Expertise = styled.div`
-  .each-skill {
-    border-bottom: 1px solid;
+  .each-skill:hover {
+    border-bottom: 4px solid #5e3BEE;
   }
 `;
