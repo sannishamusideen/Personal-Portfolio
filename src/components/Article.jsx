@@ -21,9 +21,6 @@ export default ArticleSkills;
 let Article = styled.div`
   margin: 80px 0;
 
-  // small {
-  //   font-weight: 500;
-  // }
   h1 {
     margin: 20px 0;
     font-size: 40px;
@@ -39,9 +36,6 @@ let Article = styled.div`
 
   .flex-skills {
     margin: 80px 0 100px;
-    // display: flex;
-    // justify-content: space-between;
-    // flex-wrap: wrap;
   }
   .each-skill {
     background-color: #f5fcff;

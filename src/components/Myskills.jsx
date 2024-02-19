@@ -1,4 +1,5 @@
 import React from "react";
+import styled from "styled-components";
 import Product1 from "../assets/image/HTML5_logo.png";
 import Product2 from "../assets/image/CSS3_logo_and_wordmark.svg-removebg-preview.png";
 import Product3 from "../assets/image/JavaScript-logo.png";
@@ -33,16 +34,24 @@ const Skills = [
 
 const Myskill = () => {
   return (
-    <div className="flex-skills">
-      {Skills.map((item, index) => (
-        <section className="each-skill">
-          <img className="image" src={item.imageSrc} alt="" />
-          <h4>{item.name}</h4>
-          <p>{item.word}</p>
-        </section>
-      ))}
-    </div>
+    <Expertise>
+      <div className="flex-skills">
+        {Skills.map((item, index) => (
+          <section className="each-skill">
+            <img className="image" src={item.imageSrc} alt="" />
+            <h4>{item.name}</h4>
+            <p>{item.word}</p>
+          </section>
+        ))}
+      </div>
+    </Expertise>
   );
 };
 
 export default Myskill;
+
+let Expertise = styled.div`
+  .each-skill {
+    border-bottom: 1px solid;
+  }
+`;
