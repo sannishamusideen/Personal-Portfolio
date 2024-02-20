@@ -34,7 +34,7 @@ export const TestimonialPage = () => {
   };
 
   return (
-    <AllTestimonial>
+    <AllTestimonial id="testimonials">
       <section className="container">
         <section>
           <section className="section">

@@ -6,7 +6,7 @@ import SocialIcon from "../assets/image/Social icon.svg";
 
 const ProfilePage = () => {
   return (
-    <Allprofile>
+    <Allprofile id="portfolio">
       <section className="container">
         <section className="flex-top">
           <div>

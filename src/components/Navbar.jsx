@@ -18,10 +18,25 @@ const Portfolionavbar = () => {
             <img src={logo} alt="" />
             <div className={`flex-nav-bttn  ${menuOpen ? "active" : ""}`}>
               <ul className="nav-links">
-                <li>Home</li>
-                <li>Portfolio</li>
-                <li>About me</li>
-                <li>Testimonials</li>
+                {/* <li>Home</li> */}
+                <li>
+                  <a
+                    href="https://www.google.com"
+                    class="activate"
+                    target="_blank"
+                  >
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#about">About me</a>
+                </li>
+                <li>
+                  <a href="#testimonials">Testimonials</a>
+                </li>
               </ul>
 
               <div className="nav-div-bttn">

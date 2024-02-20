@@ -4,7 +4,7 @@ import Image from "../assets/image/About Me.png";
 
 const AboutMe = () => {
   return (
-    <About>
+    <About id="about">
       <section className="container">
         <section className="flex">
           <div className="image">
