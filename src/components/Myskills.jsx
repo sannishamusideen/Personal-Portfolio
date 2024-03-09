@@ -4,7 +4,10 @@ import Product1 from "../assets/image/HTML5_logo.png";
 import Product2 from "../assets/image/CSS3_logo_and_wordmark.svg-removebg-preview.png";
 import Product3 from "../assets/image/JavaScript-logo.png";
 import Product4 from "../assets/image/WordPress_blue_logo.svg-removebg-preview.png";
-
+import Product5 from "../assets/image/pngwing.com.png";
+import Product6 from "../assets/image/pngwing.com (1).png";
+import Product7 from "../assets/image/nextjs.svg";
+import Product8 from "../assets/image/vercel.svg";
 const Skills = [
   {
     name: "HTML",
@@ -30,6 +33,30 @@ const Skills = [
     imageSrc: Product4,
     alt: "",
   },
+  {
+    name: "Figma",
+    word: "Figma is a collaborative web application for interface design, with additional offline features enabled by desktop applications for macOS and Windows.",
+    imageSrc: Product5,
+    alt: "",
+  },
+  {
+    name: "ReactJS",
+    word: "React is a free and open-source front-end JavaScript library for building user interfaces based on components. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.",
+    imageSrc: Product6,
+    alt: "",
+  },
+  {
+    name: "NextJS",
+    word: "Next.js is an open-source web development framework created by the private company Vercel providing React-based web applications with server-side rendering and static website generation.",
+    imageSrc: Product7,
+    alt: "",
+  },
+  {
+    name: "Vercel",
+    word: "Vercel Inc., formerly ZEIT is an American cloud platform as a service company. The company maintains the Next.js web development framework.",
+    imageSrc: Product8,
+    alt: "",
+  },
 ];
 
 const Myskill = () => {
@@ -52,6 +79,6 @@ export default Myskill;
 
 let Expertise = styled.div`
   .each-skill:hover {
-    border-bottom: 4px solid #5e3BEE;
+    border-bottom: 4px solid #5e3bee;
   }
 `;
