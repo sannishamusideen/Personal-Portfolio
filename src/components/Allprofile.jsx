@@ -21,9 +21,8 @@ const ProfilePage = () => {
 
         <section className="flex">
           <div className="each-port">
-            {Profilelist.map((profily) => (
+            {Profilelist.map((profily, index) => (
               <Profile
-                img={profily.img}
                 project={profily.project}
                 word={profily.word}
               />
