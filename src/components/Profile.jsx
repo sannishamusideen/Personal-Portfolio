@@ -5,7 +5,7 @@ import LMS from "../assets/image/Screenshot 2024-02-29 at 12.58.01 PM.png";
 import JobListing from "../assets/image/Screenshot 2024-03-13 at 4.02.38 PM.png"
 import Advice_Generator from "../assets/image/Screenshot 2024-03-13 at 4.05.17 PM.png"
 
-const Profilelist = [
+const Profilelists = [
   {
     img: LMS,
     project: "Ahuse",
@@ -31,7 +31,7 @@ const Profilelist = [
 const Profile = () => {
   return (
     <EachProfile className="each-profile">
-      {Profilelist.map((item, index) => (
+      {Profilelists.map((item, index) => (
         <section>
           <img src={item.img} alt="" />
           <div className="section">
@@ -48,7 +48,7 @@ const Profile = () => {
       ))}
     </EachProfile>
   );
-};
+}; 
 
 export default Profile;
 
