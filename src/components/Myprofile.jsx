@@ -9,22 +9,22 @@ import vector from "../assets/image/Vector (2).svg";
 const Profilelists = [
   {
     img: LMS,
-    project: "Ahuse",
-    word: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis hic harum maxime possimus delectus ducimus porro incidunt est, fugiat voluptatum sint exercitationem omnis eligendi optio reprehenderit, excepturi ut ratione eos!",
+    project: "Learning Management System",
+    word: "A Learning Management System (LMS) is a software application or platform designed to facilitate the administration, delivery, tracking, and management of educational courses, training programs, or learning content. It play a vital role in modern education and training.",
     // view: "View In Dribble",
   },
 
   {
     img: JobListing,
-    project: "App Dashboard",
-    word: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis hic harum maxime possimus delectus ducimus porro incidunt est, fugiat voluptatum sint exercitationem omnis eligendi optio reprehenderit, excepturi ut ratione eos!",
+    project: "Job Listing",
+    word: "A job listing is a formal announcement created by employers or hiring managers to attract qualified candidates for available job positions within their organization.  Job listings play a crucial role in connecting employers with potential candidates and facilitating the recruitment process. ",
     // view: "View In Dribble",
   },
 
   {
     img: Advice_Generator,
-    project: "Easy Rent",
-    word: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis hic harum maxime possimus delectus ducimus porro incidunt est, fugiat voluptatum sint exercitationem omnis eligendi optio reprehenderit, excepturi ut ratione eos!",
+    project: "Advice Generator",
+    word: "An Advice Generator is a software tool or application designed to provide users with random pieces of advice, guidance, or wisdom on various topics. These generators are often created for entertainment, motivation, or as a quick source of inspiration.",
     // view: "View In Dribble",
   },
 ];
@@ -47,22 +47,31 @@ const Myprofile = () => {
         <section className="each-profile">
           {Profilelists.map((item, index) => (
             <div className="div">
-              <img src={item.img} alt="" />
+              <div className="image">
+                <img src={item.img} alt="" />
+              </div>
               <div className="section">
                 <h3>{item.project}</h3>
                 <p>{item.word}</p>
                 <div className="underline">
-                  <div className="view">
-                    <h4>View In Dribble</h4>
-                    <img src={vector} alt="" />
-                  </div>
+                  <a
+                    href="https://vercel.com/engrloverboys-projects"
+                    target="_blank"
+                  >
+                    <div className="view">
+                      <h4>View In Dribble</h4>
+                      <img src={vector} alt="" />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
           ))}
         </section>
         <div className="btn">
-          <button className="bttn">View More Project</button>
+          <a href="https://github.com/sannishamusideen" target="_blank">
+            <button className="bttn">View More Project</button>
+          </a>
         </div>
       </section>
     </Port>
@@ -91,6 +100,7 @@ let Port = styled.div`
     height: 40px;
     color: white;
     border: 1px;
+    cursor: pointer;
     img {
       width: 20px;
       padding-right: 10px;
@@ -98,11 +108,12 @@ let Port = styled.div`
   }
   .div {
     margin: 40px 0;
-    img {
-        width: 360px;
-        height: 220px;
+    .image {
+      width: 360px;
+     height: 204px;
     }
   }
+
   .section {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 20px;
@@ -125,11 +136,20 @@ let Port = styled.div`
   .underline {
     border-bottom: 1px solid blue;
     display: inline-flex;
+
+    a{
+      text-decoration: none;
+      color: black;
+    }
   }
   .btn {
     display: flex;
     justify-content: end;
     margin-bottom: 30px;
+
+    a{
+      text-decoration: none;
+    }
   }
   .bttn {
     height: 35px;
