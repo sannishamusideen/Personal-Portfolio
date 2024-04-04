@@ -38,10 +38,14 @@ const Myprofile = () => {
             <strong>Recent Projects</strong>
             <h1>My Portfolio</h1>
           </div>
-          <button>
-            <img src={SocialIcon} alt="" />
-            Visit My Dribble
-          </button>
+          <div className="btn_visit">
+            <a href="https://vercel.com/engrloverboys-projects" target="_blank">
+              <button>
+                <img src={SocialIcon} alt="" />
+                Visit My Vercel
+              </button>
+            </a>
+          </div>
         </section>
 
         <section className="each-profile">
@@ -59,7 +63,7 @@ const Myprofile = () => {
                     target="_blank"
                   >
                     <div className="view">
-                      <h4>View In Dribble</h4>
+                      <h4>View In Vercel</h4>
                       <img src={vector} alt="" />
                     </div>
                   </a>
@@ -153,6 +157,12 @@ let Port = styled.div`
   }
   .bttn {
     height: 35px;
+  }
+  .btn_visit {
+    a {
+      text-decoration: none;
+    }
+
   }
 
    @media (min-width: 700px) {

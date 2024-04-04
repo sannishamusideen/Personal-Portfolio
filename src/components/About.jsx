@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "../assets/image/About Me.png";
+import Picture from "../assets/image/My Pics.jpeg"
 
 const AboutMe = () => {
   return (
