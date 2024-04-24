@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Image from "../assets/image/About Me.png";
-import Picture from "../assets/image/My Pics.jpeg"
+import Picture from "../assets/image/My Pics.jpeg";
 
 const AboutMe = () => {
   return (
@@ -9,7 +9,7 @@ const AboutMe = () => {
       <section className="container">
         <section className="flex">
           <div className="image">
-            <img src={Image} alt="" />
+            <img src={Picture} alt="" />
           </div>
 
           <div className="aboutme">
@@ -42,6 +42,14 @@ let About = styled.div`
   .flex {
     margin: 30px 0;
     padding: 40px 0;
+
+    .image {
+      img {
+        border-radius: 50%;
+        height: 500px;
+        object-fit: cover;
+      }
+    }
   }
 
   h1 {
