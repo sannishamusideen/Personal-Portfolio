@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Picture from "../assets/image/Group 11 1.png";
+import Picturelom from "../assets/image/Picturelom-removebg-preview.png";
 
 const Portfolioheader = () => {
   return (
@@ -28,7 +29,11 @@ const Portfolioheader = () => {
           </div>
 
           <div className="img-picture">
-            <img src={Picture} alt="" />
+            {/* <img src={Picture} alt="" /> */}
+
+            <div className="frame">
+              <img src={Picturelom} alt="" />
+            </div>
           </div>
         </section>
       </section>
@@ -40,10 +45,10 @@ export default Portfolioheader;
 
 let Header = styled.div`
   background-color: #f5fcff;
-  padding: 50px 0;
+  padding: 120px 0;
 
   .section {
-    padding-top: 30px;
+    padding-top: 50px;
   }
 
   .head {
@@ -73,6 +78,21 @@ let Header = styled.div`
   }
   .img-picture img {
     margin: 30px 0;
+  }
+
+  .frame {
+    width: 500px;
+    height: 320px;
+    background-color: rgb(206, 224, 234);
+    border-radius: 40px;
+    position: relative;
+
+    img {
+      width: 400px;
+      position: absolute;
+      bottom: -29px;
+      left: 40px;
+    }
   }
 
   @media (min-width: 912px) {
