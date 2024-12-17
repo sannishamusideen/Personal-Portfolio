@@ -72,6 +72,7 @@ let EachTestimonail = styled.div`
     height: 50px;
     border-radius: 50%;
     margin-right: 20px;
+    object-fit: cover;
   }
   .star {
     display: flex;
