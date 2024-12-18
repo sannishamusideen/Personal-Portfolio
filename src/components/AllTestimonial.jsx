@@ -72,4 +72,7 @@ let AllTestimonial = styled.div`
   .section {
     padding: 40px 0;
   }
+  .flex {
+    padding-bottom: 50px;
+  }
 `;

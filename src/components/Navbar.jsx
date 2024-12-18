@@ -21,7 +21,7 @@ const Portfolionavbar = () => {
                 {/* <li>Home</li> */}
                 <li>
                   <a
-                    href="https://www.google.com"
+                    href="https://personal-portfolio-frat.vercel.app"
                     class="activate"
                     target="_blank"
                   >
@@ -98,7 +98,8 @@ let Navbar = styled.div`
     width: 360px;
 
     li {
-      color: #1c1e53;
+      // color: #1c1e53;
+      color: #5e3bee;
     }
     li:hover {
       color: #5e3bee;
