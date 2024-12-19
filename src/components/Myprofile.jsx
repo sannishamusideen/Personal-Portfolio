@@ -10,21 +10,21 @@ const Profilelists = [
   {
     img: LMS,
     project: "Learning Management System",
-    word: "A Learning Management System (LMS) is a software application or platform designed to facilitate the administration, delivery, tracking, and management of educational courses, training programs, or learning content. It play a vital role in modern education and training.",
+    word: "A Learning Management System (LMS) is a software application or platform designed to facilitate the administration, delivery, tracking, and management of educational courses, training programs, or learning content. It play a vital role in modern education and training. LMSs can facilitate collaboration.",
     // view: "View In Dribble",
   },
 
   {
     img: JobListing,
     project: "Job Listing",
-    word: "A job listing is a formal announcement created by employers or hiring managers to attract qualified candidates for available job positions within their organization.  Job listings play a crucial role in connecting employers with potential candidates and facilitating the recruitment process. ",
+    word: "A Job listing is a formal announcement created by employers or hiring managers to attract qualified candidates for available job positions within their organization.  Job listings play a crucial role in connecting employers with potential candidates and facilitating the recruitment process. ",
     // view: "View In Dribble",
   },
 
   {
     img: Advice_Generator,
     project: "Advice Generator",
-    word: "An Advice Generator is a software tool or application designed to provide users with random pieces of advice, guidance, or wisdom on various topics. These generators are often created for entertainment, motivation, or as a quick source of inspiration.",
+    word: "An Advice Generator is a software tool or application designed to provide users with random pieces of advice, guidance, or wisdom on various topics. These generators are often created for entertainment, motivation, or as a quick source of inspiration. The app is part of a coding challenge on Frontend Mentor.",
     // view: "View In Dribble",
   },
 ];
@@ -52,7 +52,7 @@ const Myprofile = () => {
           {Profilelists.map((item, index) => (
             <div className="div">
               <div className="image">
-                <img src={item.img} alt="" />
+              <img src={item.img} alt="" />
               </div>
               <div className="section">
                 <h3>{item.project}</h3>
@@ -112,11 +112,7 @@ let Port = styled.div`
   }
   .div {
     margin: 40px 0;
-    .image {
-      width: 360px;
-     height: 204px;
-    }
-  }
+}
 
   .section {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -169,8 +165,22 @@ let Port = styled.div`
     .each-profile {
       display: flex;
       justify-content: space-between;
+      flex-wrap: wrap;
     }
+    .div {
+      width: 48%;
+    }
+    .div {
+      .image{
+       img {
+      height: 238px;
+     }
+   }
+  }
+
+  @media (min-width: 900px){
     .div {
       width: 30%;
     }
+  }
 `;
