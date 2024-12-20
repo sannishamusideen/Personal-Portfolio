@@ -130,8 +130,16 @@ let Header = styled.div`
 
   @media (max-width: 500px) {
     .frame {
-      img{
+      img {
         left: 10px;
+      }
+    }
+  }
+
+  @media (max-width: 400px) {
+    .frame {
+      img {
+        left: -33px;
       }
     }
   }
