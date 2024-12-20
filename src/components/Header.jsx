@@ -95,7 +95,13 @@ let Header = styled.div`
     }
   }
 
-  @media (min-width: 912px) {
+  // @media (min-width: 912px) {
+  //   .img-picture {
+  //     width: 30%;
+  //   }
+  // }
+
+  @media (min-width: 1150px) {
     .section {
       display: flex;
       justify-content: space-between;
@@ -107,10 +113,18 @@ let Header = styled.div`
     }
 
     .img-picture {
-      width: 45%;
+      width: 42%;
     }
     .head {
       width: 45%;
+    }
+  }
+
+  @media (max-width: 1149px) {
+    .img-picture {
+      display: flex;
+      justify-content: center;
+      margin-top: 100px;
     }
   }
 `;
