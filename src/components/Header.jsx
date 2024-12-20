@@ -127,4 +127,12 @@ let Header = styled.div`
       margin-top: 100px;
     }
   }
+
+  @media (max-width: 500px) {
+    .frame {
+      img{
+        left: 10px;
+      }
+    }
+  }
 `;
