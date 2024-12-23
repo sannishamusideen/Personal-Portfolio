@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import logo from "../assets/image/Logo.svg";
+import logo from "../assets/image/Shams_Logo_Medium.png";
+// import logo from "../assets/image/Logo.svg";
 import hamburger from "../assets/image/icon-hamburger.svg";
 
 const Portfolionavbar = () => {

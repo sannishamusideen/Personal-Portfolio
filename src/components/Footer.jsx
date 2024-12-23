@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../assets/image/Logo.svg";
+import logo from "../assets/image/Shams_Logo_Medium.png";
 import facebook from "../assets/image/Facebook.svg";
 import twitter from "../assets/image/Twitter.svg";
 import instagram from "../assets/image/Instagram.svg";
@@ -14,12 +14,35 @@ const Portfoliofooter = () => {
           <img src={logo} alt="" />
 
           <ul>
-            <li>Home</li>
-            <li>Portfolio</li>
-            <li>About me</li>
-            <li>Contact</li>
-            <li>Testimonials</li>
-            <li>Portfolio</li>
+            {/* <li>Home</li> */}
+            <li>
+              <a
+                href="https://personal-portfolio-frat.vercel.app"
+                class="activate"
+                target="_blank"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a href="#about">About me</a>
+            </li>
+            <li>
+              <a
+                href="https://wa.me/2348100959239"
+                className="nav-bttn"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact Me
+              </a>
+            </li>
+            <li>
+              <a href="#testimonials">Testimonials</a>
+            </li>
           </ul>
 
           <div className="footer-social">
@@ -33,7 +56,12 @@ const Portfoliofooter = () => {
               <img src={instagram} alt="" />
             </span>
             <span>
-              <img src={linkedin} alt="" />
+              <a
+                href="https://www.linkedin.com/in/shamusideen-sanni-259013233/"
+                target="_blank"
+              >
+                <img src={linkedin} alt="" />
+              </a>
             </span>
           </div>
         </div>
@@ -98,6 +126,7 @@ let Footer = styled.div`
     .flex-footer {
       display: flex;
       justify-content: space-between;
+      align-items: center;
     }
 
     .footer .flex-footer ul {
