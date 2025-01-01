@@ -94,14 +94,7 @@ let Header = styled.div`
       left: 40px;
     }
   }
-
-  // @media (min-width: 912px) {
-  //   .img-picture {
-  //     width: 30%;
-  //   }
-  // }
-
-  @media (min-width: 1150px) {
+@media (min-width: 1150px) {
     .section {
       display: flex;
       justify-content: space-between;
