@@ -17,7 +17,7 @@ const Profilelists = [
   {
     img: JobListing,
     project: "Job Listing",
-    word: "A Job listing is a formal announcement created by employers or hiring managers to attract qualified candidates for available job positions within their organization.  Job listings play a crucial role in connecting employers with potential candidates and facilitating the recruitment process. ",
+    word: "A Job listing is a formal announcement created by employers or hiring managers to attract qualified and experinece candidates for available job positions within their organization.  Job listings play a crucial role in connecting employers with potential candidates and facilitating the recruitment process. ",
     // view: "View In Dribble",
   },
 
