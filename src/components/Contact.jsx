@@ -10,8 +10,8 @@ const ContactPage = () => {
             <strong>Get In Touch</strong>
             <h1>Contact me</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In sit
-              suscipit molestiae accusantium.
+              Please email us with any questions. We would be happy to answer
+              your questions. Shams Tech can help set you apart from the flock!
             </p>
           </div>
 
