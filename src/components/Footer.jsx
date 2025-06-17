@@ -75,9 +75,64 @@ const Portfoliofooter = () => {
             <li className="set">Cookies Settings</li>
           </ul>
         </div>
+        
+
+        <div class="test-wrapper owl-carousel">
+  <!--Item 1-->
+          <div class="test-words item">
+            <p class="test-personal">
+              “On the Windows talking painted pasture yet its express parties
+              use. Sure last upon he same as knew next. Of believed or diverted
+              no.”
+            </p>
+            <p class="test-name">Mike taylor</p>
+            <p class="lah">Lahore, Pakistan</p>
+          </div>
+  
+  
+  <!--Item 2-->
+  <div class="test-words item">
+            <p class="test-personal">
+              “On the Windows talking painted pasture yet its express parties
+              use. Sure last upon he same as knew next. Of believed or diverted
+              no.”
+            </p>
+            <p class="test-name">Mike taylor</p>
+            <p class="lah">Lahore, Pakistan</p>
+          </div>
+        </div>
+
+<style>
+  .test-wrapper{
+    display: flex;
+  }
+  .test-personal{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #5E6282;
+    margin-bottom: 34px;
+    padding-bottom: 0px;
+  }
+  .lah {
+    color: #5E6282;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .test-name{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+  }
+</style>
+
+
+
       </div>
     </Footer>
   );
+
 };
 
 export default Portfoliofooter;
